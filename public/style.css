@@ -1,0 +1,347 @@
+* {
+    /* background: lightgreen; */
+}
+#main {
+    width: 100vw;
+}
+#welcome {
+    position: absolute;
+    margin: 30px;
+}
+
+#welcomeP {
+    font-size: 30px;
+    color: MediumSeaGreen;
+    font-weight: bold;
+}
+h1 {
+    /* color: MediumSeaGreen; */
+    color: OliveDrab;
+}
+
+h2 {
+    color: MediumSeaGreen;
+}
+h4 {
+    color: OliveDrab;
+}
+
+input {
+    background: white;
+}
+
+#logo {
+    position: relative;
+    left: 50px;
+    height: 100px;
+    width: auto;
+    transform: rotate(-20deg);
+}
+
+#regForm,
+#loginForm {
+    position: absolute;
+    left: 50%;
+    margin: 30px;
+}
+
+button {
+    background-color: MediumSeaGreen;
+    border: 1px dotted black;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 13px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.welcomNav {
+    height: 100px;
+    width: 300px;
+    border: 3px dotted MediumSeaGreen;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+#headerContainer {
+    border-bottom: 1px solid black;
+}
+#header {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+#nav {
+    position: relative;
+    float: right;
+}
+.navButtons {
+    padding: 5px 10px;
+    width: 80px;
+    height: 20px;
+    background: MediumSeaGreen;
+    color: black;
+    border: 1px dotted black;
+    text-align: center;
+    border-radius: 3px;
+
+    position: relative;
+    down: 5px;
+    margin-left: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+#proPicContainer {
+    border: 1px solid MediumSeaGreen;
+    z-index: 7;
+}
+#proPic {
+    /* margin: 3px; */
+    /* padding: 2px; */
+    right: 4px;
+    float: right;
+    height: 100px;
+    width: 100px;
+    z-index: 9;
+}
+
+#uploader {
+    z-index: 9;
+    background: MediumSeaGreen;
+    border: 1px dotted black;
+    border-radius: 13px;
+    padding: 4px;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 33%;
+    top: 33%;
+    text-align: center;
+    box-shadow: 10px 18px 16px 0px rgba(0, 0, 0, 0.6);
+}
+.textUploader {
+    background: MediumSeaGreen;
+}
+#uploaderBG {
+    margin: 0;
+    width: 100vw;
+    height: 50vw;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+}
+
+.uploadButtons {
+    background-color: lightgreen;
+    border: 1px solid black;
+    color: black;
+    margin-left: 25px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 13px;
+    width: 100px;
+}
+
+#darkness {
+    height: 100vw;
+    width: 100vw;
+    /* z-index: 6; */
+}
+#proileContainer {
+    width: 700px;
+    height: 400px;
+}
+
+#proPicProfile {
+    border: 1px dashed black;
+    float: left;
+    position: relative;
+
+    top: 30%;
+    left: 10%;
+    transform: scale(2);
+}
+
+#profileInfo {
+    position: relative;
+    left: 33%;
+    max-width: 700px;
+}
+
+#bioEditorContainer {
+    position: relative;
+    left: 33%;
+}
+
+#bioEditor {
+    width: 500px;
+    height: 200px;
+    background: white;
+    /* border: 3px dotted OliveDrab; */
+    position: absolute;
+    top: -2;
+    left: 100px;
+    box-shadow: 0px 12px 56px 0px rgba(0, 0, 0, 0.6);
+}
+
+.bioButtons {
+    position: absolute;
+    left: 33%;
+}
+#submitBio {
+    background-color: MediumSeaGreen;
+    border: 1px dotted black;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 13px;
+    position: absolute;
+    left: 630px;
+    top: 2px;
+}
+#cancelBio {
+    background-color: MediumSeaGreen;
+    border: 1px dotted black;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 13px;
+    position: absolute;
+
+    left: 630px;
+    top: 50px;
+}
+
+#otherUserContainer {
+    width: 700px;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+
+#proPicOtherUser {
+    border: 1px dashed black;
+    right: 4px;
+    float: left;
+    height: 100px;
+    width: 100px;
+    transform: scale(2);
+
+    position: relative;
+
+    top: 30%;
+    left: 10%;
+}
+
+#otherUserProfileInfo {
+    position: relative;
+    /* padding: 0; */
+    left: 33%;
+    max-width: 550px;
+}
+
+#bioContainer {
+    position: relative;
+    left: 33%;
+}
+
+#bioOtherUser {
+    width: 500px;
+    height: 200px;
+    background: white;
+    border: 1px dotted black;
+    position: absolute;
+    top: 1px;
+    left: 40px;
+}
+
+#RuFriends {
+    position: relative;
+    top: -50px;
+    left: 800px;
+    height: 100px;
+    width: 400px;
+    border: 3px dotted MediumSeaGreen;
+    align-items: center;
+    text-align: center;
+}
+
+.userImag {
+    height: 100px;
+    width: 100px;
+}
+.onlineUserItem,
+.friendItem,
+.wannabeItem {
+    border: 3px dotted MediumSeaGreen;
+    display: inline-flex;
+    height: 120px;
+    width: 320px;
+    padding: 5px;
+    margin: 15px;
+}
+.userName,
+.friendName,
+.wannabeName {
+    padding-left: 13px;
+    /* border: 1px solid gold; */
+}
+
+.onlineTitle {
+    text-align: center;
+    color: black;
+}
+
+#chatMessagesBox {
+    /* border: 3px solid red; */
+    /* display: flex; */
+    position: absolute;
+    left: 25%;
+    width: 50vw;
+    text-align: center;
+}
+
+#textarea {
+    background: white;
+    height: 100px;
+    width: 500px;
+    margin: 20px;
+    border: 2px solid OliveDrab;
+}
+#chatMessagesContainer {
+    /* padding: 40px; */
+}
+#messagesContainer {
+    margin: 10px;
+    border: 3px dotted OliveDrab;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.chatMessageItem {
+    border-bottom: 1px solid OliveDrab;
+
+    display: flex;
+}
+.chatImg {
+    height: 80px;
+    width: 80px;
+    border: 1px dotted black;
+    margin: 6px;
+    /* position: relative; */
+}
+
+.messageSender {
+    color: OliveDrab;
+    font-weight: bold;
+}
+.messageDate {
+    color: OliveDrab;
+    font-style: italic;
+}
+
+#map {
+    height: 100vh;
+    border: 1px solid black;
+    z-index: 9;
+}

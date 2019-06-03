@@ -1,0 +1,20 @@
+ id | first  | last  |  email  |                           password                           |   imageurl    |     bio     |         created_at         
+----+--------+-------+---------+--------------------------------------------------------------+---------------+-------------+----------------------------
+  1 | a      | a     | a       | $2a$10$IbSPUlqtOii0mLb2ApjJ9.AYLCRnkgbOk3.eCHA2NuePNj.72pCp6 |               |             | 2019-02-01 11:27:43.841715
+  2 | q      | q     | q       | $2a$10$1.SrP9S7fxmG8HbcNiRcvOfdVsMxyX6NK/aQJGB45/TCSEcatsL4m |               |             | 2019-02-01 15:56:11.753874
+  3 | 1      | 1     | 1       | $2a$10$Cvx9f4LyshISGTJjwAM6be/kh5CgdsGVOkdsNqVHLTc33FAEL/CeC |               |             | 2019-02-01 15:58:21.350896
+  4 | z      | z     | z       | $2a$10$5wmTCKhaFdm./s1rgp1FAO7F8wUVdJkpcYvIJYpxgbCAmpovOgbkO |               |             | 2019-02-01 16:35:07.141102
+  5 | aa     | aa    | aa      | $2a$10$IrLKU9qOQaJbcH.NQhhgWuDelham8VgEXkE6HImuIn6x1Lz.ZLJ5e | /bookworm.png |             | 2019-02-01 16:39:02.429349
+  6 | qq     | qq    | qq      | $2a$10$ZrFj7d5dE/2DJGHXI3NcxeZyEX0dwfwmnanYUK5sbWjcqcOnT2NMe | /bookworm.png |             | 2019-02-01 16:40:30.954442
+  7 | 11     | 11    | 11      | $2a$10$zmeVQiNXbWCjHvolfAHx.OUJ01NGnvdOI/7c4HzM8KqVv5wq1ahE2 | /bookworm.png |             | 2019-02-01 16:52:13.915702
+  8 | 2      | 2     | 2       | $2a$10$Uc8iFXtKHCpebUdJKgRHC.Y.AsGa4AkhAxZkRwL.IFoQxozoZMlhW | /bookworm.png |             | 2019-02-01 16:56:56.212068
+  9 | bio    | vbio  | bio     | $2a$10$Ga5DaMwuiZw4zRR7jid.Y.4/zGR2BJI0tCuIHMtEiqkRSzOUqukXe | /bookworm.png | 12344       | 2019-02-01 17:09:40.409635
+ 10 | 234214 | 23432 | 23432   | $2a$10$UgDFInWSlmTLscZpB7edheHYgL7FP7XfVVz1PyrBpeB28mZIN/CY2 | /bookworm.png | 12344       | 2019-02-03 12:54:48.0473
+ 11 | uncle  | jesse | uncle   | $2a$10$FgonI5EGfFz4Yr4KH6uaKO2xf40EF9sPLiS5vZJgPWYE2Lq.S06va | /bookworm.png | 12344       | 2019-02-03 12:58:47.615208
+ 12 | bla    | vla   | vvvvbla | $2a$10$b8sdiSoIt4yY3H0/Jwnrb.F8TIB7PaA1yiFAiuTEZ8Q4QVBtHMdxW | /bookworm.png | 12344       | 2019-02-03 13:02:34.446906
+ 13 | asd    | asd   | asd     | $2a$10$HHgakKTORCxNBAzGRRQ9dutcuYY1HpPjAz0XSEkKVxAFBgphoiCcC | /bookworm.png | 12344       | 2019-02-03 13:03:31.223175
+ 14 | ww     | ww    | ww      | $2a$10$Z.VF3shknKUKDJyx8I0F3.iyZFKC1HmNw8pKbVvem5NPIaodh4kGi | /bookworm.png | /poooop.jpg | 2019-02-03 21:38:28.305688
+ 15 | aq     | aq    | aq      | $2a$10$xY46FIZ2vHWPqp1vJ3qgH.6AnBvLA4q4iL6jI52AWLSbHgmbaWmfK |               |             | 2019-02-03 21:47:32.172175
+ 16 | qz     | qz    | qz      | $2a$10$zFyf7YOLQ4uFLgGwCJrp0e0E5UCGHGwNCAIYBN0pkLkY0dE7eY/K. |               | sdsdasd     | 2019-02-03 21:52:50.017333
+(16 rows)
+
